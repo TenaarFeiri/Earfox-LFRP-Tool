@@ -5,3 +5,5 @@
 ## Author: Sara Schulze Øverby
 ## IconTexture: 6624474
 ## Category: Chat
+
+Earfox.lua
