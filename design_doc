@@ -1,0 +1,27 @@
+## Design Doc for Earfox LFRP Tool
+
+### 1. Overview
+Earfox is a tool for World of Warcraft that helps players find and participate in role-playing events. 
+It is a global tool, meaning it is not tied to a specific character or guild. It is also a group-centric tool, meaning it is designed to help groups of players find and participate in role-playing events together.
+It does this by allowing existing groups/raids to use it as an alternative to the default LFG/LFR tools, while also providing a way to find and join groups that are looking for more players.
+
+### 2. Goals
+- Provide a way for groups to find and participate in role-playing events together.
+- Provide a way for groups to find and join groups that are looking for more players.
+- Automate the process of dispatching invites and requests insofar it is possible, desired and reasonable.
+- Have it respect the party/raid leader's ignore list, and have its own blacklist.
+
+### 3. Features
+- Must create unique IDs for each listing, and use that ID to identify the listing in all communications.
+- Must allow for reasonable group descriptions, alternatively hyperlinking to web pages.
+- Must communicate group size to viewers.
+- Must allow for filtering by group size, and by whether the group is looking for more players.
+- Must use an addon channel for communication.
+- Must be able to support cross-faction via ethical means (e.g Communities and Battle.Net friends).
+- If at all possible, find a way to interact with default LFG tools to make cross-faction easier (ID descriptions? Can we even do a general search through the LFG listings?)
+- Must support Simply's LFRP tool.
+- Must have a user interface that feels familiar to use.
+- Must have accessibility options for differently-sighted people.
+- Must have a way to report and block players.
+
+todo: finish this doc

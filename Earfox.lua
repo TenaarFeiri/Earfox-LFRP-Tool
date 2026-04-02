@@ -1,0 +1,1 @@
+local _, Earfox = ... -- Grab the shared tables.
